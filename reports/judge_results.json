@@ -1,0 +1,177 @@
+{
+  "num_judged": 15,
+  "cohen_kappa": 0.2857,
+  "judge_labels": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+  ],
+  "human_labels": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "bias_report": {
+    "total_judged": 15,
+    "position_bias_rate": 0.2,
+    "position_bias_count": 3,
+    "verbosity_bias": 1.0,
+    "verbosity_details": {
+      "a_wins_a_longer": 0,
+      "b_wins_b_longer": 11,
+      "total_decisive": 11
+    },
+    "interpretation": "Position bias thấp — judge ổn định."
+  },
+  "judgments": [
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày khi kết hôn?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "position_consistent": true,
+      "reasoning_pass1": "Answer B cung cấp thông tin chi tiết hơn về việc nghỉ không trừ vào phép năm, giúp người đọc hiểu rõ hơn về quyền lợi của nhân viên khi kết hôn.",
+      "reasoning_pass2": "Đáp án A cung cấp thông tin đầy đủ về việc nghỉ có lương và không trừ vào phép năm, trong khi đáp án B thiếu thông tin này."
+    },
+    {
+      "question": "Muốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "position_consistent": true,
+      "reasoning_pass1": "Answer B cung cấp thông tin chính xác hơn về ngưỡng phê duyệt cụ thể cho đơn hàng trên 50 triệu VNĐ, trong khi Answer A chỉ nói đến Giám đốc phòng ban mà không chỉ rõ về ngưỡng tài chính.",
+      "reasoning_pass2": "Answer A cung cấp thông tin chính xác về việc phê duyệt cho đơn hàng trị giá trên 50 triệu VNĐ, trong khi Answer B không xác định rõ ràng cấp phê duyệt chính xác."
+    },
+    {
+      "question": "Thưởng Tết tối thiểu cho nhân viên chính thức có từ 6 tháng trở lên là bao nhiêu?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "position_consistent": true,
+      "reasoning_pass1": "Answer B chính xác và đầy đủ hơn, cung cấp thông tin về nhân viên dưới 6 tháng, trong khi Answer A chỉ đưa ra thông tin về nhân viên từ 6 tháng trở lên.",
+      "reasoning_pass2": "Answer A cung cấp thông tin đầy đủ về điều kiện thưởng Tết cho nhân viên chính thức, bao gồm cả quy định cho nhân viên dưới 6 tháng, trong khi Answer B chỉ nêu chung chung."
+    },
+    {
+      "question": "Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?",
+      "winner_pass1": "B",
+      "winner_pass2": "tie",
+      "final_winner": "tie",
+      "position_consistent": false,
+      "reasoning_pass1": "Answer B cung cấp đầy đủ thông tin về cách tính số ngày nghỉ phép và rõ ràng hơn về vị trí lương, mặc dù Answer A cũng chính xác nhưng không chi tiết như B.",
+      "reasoning_pass2": "Cả hai câu trả lời đều chính xác và đầy đủ thông tin, nhưng đều có tính súc tích tương đương."
+    },
+    {
+      "question": "Nhân viên được tài trợ khóa học 25 triệu, nghỉ việc sau 8 tháng. Phải hoàn trả bao nhiêu?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "position_consistent": true,
+      "reasoning_pass1": "Answer B cung cấp thông tin chi tiết về cam kết và số tiền hoàn trả, đảm bảo độ chính xác và đầy đủ hơn so với Answer A.",
+      "reasoning_pass2": "Answer A cung cấp thông tin chi tiết về cam kết làm việc và rõ ràng trong việc xác định số tiền phải hoàn trả."
+    },
+    {
+      "question": "Nhân viên tạm ứng 8 triệu, chưa thanh toán sau 30 ngày. Ai phê duyệt và phí phạt là bao nhiêu?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "position_consistent": true,
+      "reasoning_pass1": "Answer B cung cấp thông tin chi tiết về quy trình phê duyệt và cách tính phí phạt cụ thể, trong khi Answer A chỉ đơn giản và thiếu thông tin về việc phê duyệt và cách tính phí phạt.",
+      "reasoning_pass2": "Answer A cung cấp thông tin đầy đủ về cơ chế phê duyệt và cách tính phí phạt, trong khi Answer B thiếu thông tin về mức phạt và quy trình phê duyệt chính xác."
+    },
+    {
+      "question": "Nhân viên Manager có thâm niên 12 năm: tổng phụ cấp hàng tháng và số ngày phép năm?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "position_consistent": true,
+      "reasoning_pass1": "Answer B cung cấp thông tin chi tiết về cách tính phép năm và phân chia phụ cấp, trong khi Answer A chỉ đưa ra con số mà không giải thích.",
+      "reasoning_pass2": "Answer A cung cấp đầy đủ thông tin về cả phụ cấp hàng tháng và số ngày phép năm, trong khi Answer B chỉ liệt kê thông tin mà không có chi tiết rõ ràng."
+    },
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày phép năm?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "position_consistent": true,
+      "reasoning_pass1": "Answer B cung cấp thông tin chính xác và đầy đủ về chính sách nghỉ phép năm hiện hành, bao gồm cả số ngày nghỉ cơ bản và cách tính thêm ngày nghỉ theo thâm niên, trong khi Answer A chỉ đưa ra số ngày nghỉ cũ.",
+      "reasoning_pass2": "Answer A cung cấp thông tin chính xác về số ngày phép theo chính sách mới nhất (v2024) và cũng đề cập đến chính sách cũ (v2023), trong khi Answer B chỉ đưa ra thông tin về chính sách đã lỗi thời."
+    },
+    {
+      "question": "Nhân viên thử việc có được nghỉ phép năm không?",
+      "winner_pass1": "B",
+      "winner_pass2": "A",
+      "final_winner": "tie",
+      "position_consistent": false,
+      "reasoning_pass1": "Câu trả lời B cung cấp thông tin chính xác hơn về quy trình xin nghỉ, bao gồm thêm thông tin về việc cần sự phê duyệt của trưởng phòng, làm cho nó đầy đủ hơn.",
+      "reasoning_pass2": "Câu trả lời B cung cấp thông tin chính xác về quy định nghỉ phép của nhân viên thử việc và không chứa thông tin gây hiểu lầm, trong khi câu A có một khẳng định sai về việc nhân viên thử việc không được nghỉ phép năm."
+    },
+    {
+      "question": "Nhân viên Manager có thể dùng VPN cá nhân (NordVPN) khi WFH không?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "position_consistent": true,
+      "reasoning_pass1": "Câu trả lời B chính xác vì nó dựa trên chính sách cụ thể của công ty, trong khi câu trả lời A thiếu thông tin về chính sách này.",
+      "reasoning_pass2": "Câu trả lời A chính xác và đầy đủ thông tin về chính sách VPN của công ty, trong khi câu B không đáp ứng yêu cầu chính sách."
+    },
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày khi kết hôn?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "position_consistent": true,
+      "reasoning_pass1": "Answer B cung cấp thông tin chi tiết hơn về việc nghỉ có lương và không trừ vào phép năm, làm tăng độ đầy đủ của câu trả lời.",
+      "reasoning_pass2": "Câu trả lời A cung cấp thông tin đầy đủ hơn về việc nghỉ có lương và không trừ vào phép năm, trong khi câu trả lời B thiếu thông tin này."
+    },
+    {
+      "question": "Bảo hiểm sức khỏe PVI có hạn mức bao nhiêu cho nhân viên?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "position_consistent": true,
+      "reasoning_pass1": "Answer B cung cấp thông tin đầy đủ hơn bằng cách nêu rõ các loại hình bảo hiểm bao gồm nội trú, ngoại trú và nha khoa, trong khi Answer A chỉ nêu hạn mức.",
+      "reasoning_pass2": "Answer A cung cấp thông tin đầy đủ hơn với chi tiết về các loại bảo hiểm bao gồm nội trú, ngoại trú và nha khoa."
+    },
+    {
+      "question": "Phụ cấp ăn trưa hàng tháng là bao nhiêu?",
+      "winner_pass1": "tie",
+      "winner_pass2": "tie",
+      "final_winner": "tie",
+      "position_consistent": true,
+      "reasoning_pass1": "Cả hai câu trả lời đều chính xác và đầy đủ về thông tin phụ cấp ăn trưa, chỉ khác nhau ở mức độ chi tiết. Tuy nhiên, Answer B cung cấp thông tin thêm về cách chi trả, điều này không làm Answer A kém hơn.",
+      "reasoning_pass2": "Cả hai câu trả lời đều cung cấp thông tin chính xác và đầy đủ về mức phụ cấp ăn trưa hàng tháng."
+    },
+    {
+      "question": "Mentor và buddy của nhân viên mới có thể là cùng một người không? Quản lý trực tiếp có thể làm mentor không?",
+      "winner_pass1": "tie",
+      "winner_pass2": "A",
+      "final_winner": "tie",
+      "position_consistent": false,
+      "reasoning_pass1": "Cả hai câu trả lời đều chính xác và đầy đủ về yêu cầu rằng mentor và buddy không thể là cùng một người và quản lý trực tiếp không làm mentor hoặc buddy. Cả hai cũng đều súc tích.",
+      "reasoning_pass2": "Câu trả lời B rõ ràng hơn và cung cấp thông tin đầy đủ về yêu cầu đối với mentor và buddy, cũng như vai trò của quản lý trực tiếp."
+    },
+    {
+      "question": "Muốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "position_consistent": true,
+      "reasoning_pass1": "Answer B cung cấp thông tin cụ thể và chính xác về người cần phê duyệt cho đơn hàng trên 50 triệu VNĐ, trong khi Answer A không cung cấp thông tin nào.",
+      "reasoning_pass2": "Answer A cung cấp thông tin chính xác về người cần phê duyệt cho đơn hàng trị giá 55 triệu VNĐ, trong khi Answer B không có thông tin nào."
+    }
+  ]
+}

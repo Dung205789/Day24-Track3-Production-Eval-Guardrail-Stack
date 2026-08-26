@@ -1,0 +1,138 @@
+{
+  "total_questions": 50,
+  "per_distribution": {
+    "factual": {
+      "count": 20,
+      "faithfulness": 0.8125,
+      "answer_relevancy": 0.7648849295553479,
+      "context_precision": 0.9749999999429166,
+      "context_recall": 0.875,
+      "avg_score": 0.8568462323745661
+    },
+    "multi_hop": {
+      "count": 20,
+      "faithfulness": 0.47833333333333333,
+      "answer_relevancy": 0.6786285187461302,
+      "context_precision": 0.9291666666327083,
+      "context_recall": 0.8708333333333333,
+      "avg_score": 0.7392404630113762
+    },
+    "adversarial": {
+      "count": 10,
+      "faithfulness": 0.85,
+      "answer_relevancy": 0.7133430786615531,
+      "context_precision": 0.8916666666245833,
+      "context_recall": 0.65,
+      "avg_score": 0.7762524363215341
+    }
+  },
+  "failure_clusters": {
+    "matrix": {
+      "faithfulness": {
+        "factual": 5,
+        "multi_hop": 14,
+        "adversarial": 1
+      },
+      "context_recall": {
+        "factual": 1,
+        "multi_hop": 1,
+        "adversarial": 6
+      },
+      "context_precision": {
+        "factual": 3,
+        "multi_hop": 1,
+        "adversarial": 2
+      },
+      "answer_relevancy": {
+        "factual": 11,
+        "multi_hop": 4,
+        "adversarial": 1
+      }
+    },
+    "dominant_failure_distribution": "factual",
+    "dominant_failure_metric": "faithfulness",
+    "insight": "Distribution 'factual' có nhiều failure nhất. Metric 'faithfulness' là điểm yếu chủ đạo. Gợi ý: Tighten system prompt, lower temperature"
+  },
+  "bottom_10": [
+    {
+      "rank": 1,
+      "question_id": 5,
+      "distribution": "factual",
+      "question": "Muốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",
+      "avg_score": 0.25,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 2,
+      "question_id": 39,
+      "distribution": "multi_hop",
+      "question": "So sánh yêu cầu mật khẩu giữa policy v1.0 và v2.0 về độ dài tối thiểu, thời hạn đổi và MFA.",
+      "avg_score": 0.25,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 3,
+      "question_id": 21,
+      "distribution": "multi_hop",
+      "question": "Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?",
+      "avg_score": 0.375,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 4,
+      "question_id": 33,
+      "distribution": "multi_hop",
+      "question": "Nhân viên Manager có thâm niên 12 năm: tổng phụ cấp hàng tháng và số ngày phép năm theo v2024 là bao nhiêu?",
+      "avg_score": 0.375,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 5,
+      "question_id": 50,
+      "distribution": "adversarial",
+      "question": "Nhân viên Manager có thể dùng VPN cá nhân (như NordVPN) khi WFH để tăng bảo mật thêm không?",
+      "avg_score": 0.4167,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 6,
+      "question_id": 9,
+      "distribution": "factual",
+      "question": "Nam nhân viên được nghỉ bao nhiêu ngày khi vợ sinh con?",
+      "avg_score": 0.5,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 7,
+      "question_id": 34,
+      "distribution": "multi_hop",
+      "question": "Nhân viên tạm ứng 4 triệu và một nhân viên khác tạm ứng 7 triệu: quy trình phê duyệt khác nhau thế nào?",
+      "avg_score": 0.5,
+      "worst_metric": "answer_relevancy"
+    },
+    {
+      "rank": 8,
+      "question_id": 6,
+      "distribution": "factual",
+      "question": "Thông tin lương thuộc cấp độ phân loại dữ liệu nào?",
+      "avg_score": 0.5929,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 9,
+      "question_id": 31,
+      "distribution": "multi_hop",
+      "question": "Nhân viên đi công tác trong nước 2 ngày, ở khách sạn giá 1.500.000 VNĐ/đêm. Công ty thanh toán tối đa bao nhiêu cho tiền khách sạn?",
+      "avg_score": 0.6198,
+      "worst_metric": "faithfulness"
+    },
+    {
+      "rank": 10,
+      "question_id": 49,
+      "distribution": "adversarial",
+      "question": "Theo chính sách nghỉ phép cũ (v2023), nhân viên được nghỉ bao nhiêu ngày? Còn chính sách nào đang có hiệu lực hiện tại?",
+      "avg_score": 0.6307,
+      "worst_metric": "context_precision"
+    }
+  ]
+}
